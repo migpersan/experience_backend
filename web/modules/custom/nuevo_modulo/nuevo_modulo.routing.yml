@@ -1,0 +1,7 @@
+nuevo_modulo.article_list:
+  path: '/nuevo_modulo/articles'
+  defaults: 
+    _controller: '\Drupal\nuevo_modulo\Controller\MiControlador::page'
+    _title: 'Este es mi titulo'
+  requirements: 
+    _permission: 'access content'
