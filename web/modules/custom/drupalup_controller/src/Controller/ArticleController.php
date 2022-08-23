@@ -7,14 +7,18 @@ class ArticleController {
   public function page() {
 
     $items = array(
-      array('name' => 'Article one'),
-      array('name' => 'Article two'),
-      array('name' => 'Article three'),
-      array('name' => 'Article four'),
+      array('name' => 'Article one',
+             'descripcion' => 'Descripcion 1'),
+      array('name' => 'Article two',
+             'descripcion' => 'Descripcion 2'),
+      array('name' => 'Article three',
+             'descripcion' => 'Descripcion 3'),
+      array('name' => 'Article four',
+             'descripcion' => 'Descripcion 4'),
     );
 
     return array(
-      '#theme' => 'article_list',
+      '#theme' => 'articulos',
       '#items' => $items,
       '#title' => 'Our article list'
     );
