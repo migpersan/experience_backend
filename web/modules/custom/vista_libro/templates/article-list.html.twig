@@ -1,0 +1,37 @@
+
+<div id="div_vista_libros">
+
+{% for libro in items %}
+  <div class="mi_libro">
+    <a href="/experience_backend/web/taxonomy/term/{{libro.field_categoria_target_id}}">{{ libro.categoria}}</a>
+    <img class="mi_libro_imagen" src="/experience_backend/web/sites/default/files/{{ libro.uri}}" alt="libro">
+    <a href="/experience_backend/web/node/{{ libro.nid}}">{{ libro.field_titulo_value}}</a><br>
+    <a href="/experience_backend/web/taxonomy/term/{{libro.field_autor_target_id}}" class="mi_libro_autor">{{ libro.autor}}</a>
+  </div>
+{% endfor %}
+
+</div>
+<style>
+  .mi_libro_imagen{
+    width: 80%;
+    height: 250px;
+  }
+  .mi_libro{
+    width:25%;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  #div_vista_libros{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .mi_libro_autor{
+    margin-top: -30px;
+  }
+</style>

@@ -1,0 +1,7 @@
+menu_contacto.default:
+  path: '/mi_formulario_contacto'
+  defaults:
+    _title: 'Contacto'
+    _controller: '\Drupal\menu_contacto\Controller\MenuContactoController::enlazar'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,4 @@
+name: Menu contacto
+description: Este es el menu de contacto
+type: module
+core_version_requirement: ^8 || ^9

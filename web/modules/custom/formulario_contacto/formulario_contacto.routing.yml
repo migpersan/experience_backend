@@ -1,0 +1,7 @@
+formulario_contacto.article_list:
+  path: '/formulario_contacto/articles'
+  defaults: 
+    _controller: '\Drupal\formulario_contacto\Controller\MiControlador::page'
+    _title: 'Este es mi titulo'
+  requirements: 
+    _permission: 'access content'

@@ -1,0 +1,7 @@
+form_contacto.form:
+  path: '/mi_formulario_contacto'
+  defaults:
+    _form: '\Drupal\form_contacto\Form\FormContacto'
+    _title: 'Formulario'
+  requirements:
+    _permission: 'access content'

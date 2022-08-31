@@ -1,0 +1,7 @@
+anadir_libro.form_anadir_libro:
+  path: '/anadir_libro/articles'
+  defaults: 
+    _controller: '\Drupal\anadir_libro\Controller\MiControlador::page'
+    _title: 'Este es mi titulo'
+  requirements: 
+    _permission: 'access content'

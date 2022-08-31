@@ -1,0 +1,7 @@
+vista_libro.article_list:
+  path: '/vista_libro/articles'
+  defaults: 
+    _controller: '\Drupal\vista_libro\Controller\MiControlador::page'
+    _title: 'Este es mi titulo'
+  requirements: 
+    _permission: 'access content'

@@ -1,0 +1,37 @@
+#div_anadir_libro input {
+    position: absolute;
+    left: 500px;
+    width: 50%;
+}
+
+#div_anadir_libro textarea{
+    position: absolute;
+    left: 500px;
+    width: 50%;
+    margin-bottom:80px;
+}
+
+#div_descripcion{
+    margin-bottom:200px !important;
+}
+
+#div_anadir_libro div{
+    margin-bottom: 50px;
+}
+
+#div_anadir_libro label{
+    position: relative;
+    top:16px;
+}
+
+#btn_anadir_libro{
+    padding:1%;
+    font-size:20px;
+    background-color:#2494db;
+    color:white;
+}
+
+#btn_anadir_libro:hover{
+    background-color:white;
+    color: #2494db;
+}
